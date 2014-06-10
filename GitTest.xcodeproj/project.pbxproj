@@ -21,6 +21,7 @@
 		F756F25B1947290900A69891 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F756F23D1947290800A69891 /* UIKit.framework */; };
 		F756F2631947290900A69891 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F756F2611947290900A69891 /* InfoPlist.strings */; };
 		F756F2651947290900A69891 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F756F2641947290900A69891 /* GitTestTests.m */; };
+		F756F27019472C1900A69891 /* QSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F756F26F19472C1900A69891 /* QSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F756F2601947290900A69891 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		F756F2621947290900A69891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F756F2641947290900A69891 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		F756F26E19472C1900A69891 /* QSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSTest.h; sourceTree = "<group>"; };
+		F756F26F19472C1900A69891 /* QSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				F756F2481947290800A69891 /* QSAppDelegate.h */,
+				F756F26E19472C1900A69891 /* QSTest.h */,
+				F756F26F19472C1900A69891 /* QSTest.m */,
 				F756F2491947290800A69891 /* QSAppDelegate.m */,
 				F756F24B1947290800A69891 /* Main.storyboard */,
 				F756F24E1947290800A69891 /* QSViewController.h */,
@@ -253,6 +258,7 @@
 				F756F2501947290800A69891 /* QSViewController.m in Sources */,
 				F756F24A1947290800A69891 /* QSAppDelegate.m in Sources */,
 				F756F2461947290800A69891 /* main.m in Sources */,
+				F756F27019472C1900A69891 /* QSTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
